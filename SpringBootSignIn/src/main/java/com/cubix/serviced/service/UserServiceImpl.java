@@ -45,8 +45,8 @@ public class UserServiceImpl implements UserService {
   Role userRole = roleRespository.findByRole("ADMIN");
   user.setRoles(new HashSet<Role>(Arrays.asList(userRole)));
   userRepository.save(user);
-  final String username = "vish4414@gmail.com";
-  final String password = "17Narayan";
+  final String username = "vishkamdi1@gmail.com";
+  final String password = "dnlh aghy rxqf ukps";
 
   Properties prop = new Properties();
   prop.put("mail.smtp.host", "smtp.gmail.com");
